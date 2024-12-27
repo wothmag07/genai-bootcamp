@@ -1,0 +1,6 @@
+pandas
+textblob
+spacy
+nltk
+gensim
+scikit-learn
