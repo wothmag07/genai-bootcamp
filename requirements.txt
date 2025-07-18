@@ -4,3 +4,21 @@ spacy
 nltk
 gensim
 scikit-learn
+torchtext
+# python -m spacy download de_core_news_sm
+# python -m spacy download en_web_news_sm
+transformers
+sentence-transformers
+langchain
+langchain-community
+tiktoken
+langchain-openai
+langchainhub
+chromadb
+langchain
+llama-index
+langchain_groq
+langchain_core
+dotenv
+bs4
+faiss-cpu
