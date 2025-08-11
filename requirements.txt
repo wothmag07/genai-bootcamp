@@ -7,8 +7,10 @@
 # torchtext
 # python -m spacy download de_core_news_sm
 # python -m spacy download en_web_news_sm
+# ------------------------------------------------------------
 transformers
 sentence-transformers
+# ------------------------------------------------------------
 langchain
 langchain-community
 tiktoken
@@ -19,6 +21,7 @@ langchain
 llama-index
 langchain_groq
 langchain_core
+# ------------------------------------------------------------
 dotenv
 bs4
 faiss-cpu
@@ -27,6 +30,50 @@ langchain_google_genai
 langchain_openai
 langchain_anthropic
 rapidocr-onnxruntime
+# ------------------------------------------------------------
 weaviate-client #Current version==4.16.1
 pypdf
-unstructured[pdf]
+unstructured[all-docs]
+llama-index-core
+llama-index-llms-openai
+llama-index-llms-groq
+llama-index-llms-huggingface
+llama-index-llms-replicate
+llama-index-embeddings-huggingface
+ipywidgets
+# ------------------------------------------------------------
+pinecone
+pinecone-client
+# ------------------------------------------------------------
+
+# conda install -c conda-forge poppler
+# conda install -c conda-forge tesseract libtesseract-dev
+
+
+# conda activate ai
+# # Set permanent environment variables for this conda env
+# conda env config vars set TESSERACT_PATH="C:\Program Files\Tesseract-OCR"
+# conda env config vars set PATH="%PATH%;C:\Program Files\Tesseract-OCR"
+
+# # Reactivate environment to apply changes
+# conda deactivate
+# conda activate ai 
+
+# # Test
+# tesseract --version
+
+# ------------------------------------------------------------
+
+pdf2image[poppler]
+pytesseract
+unstructured-pytesseract
+# tesseract-ocr
+matplotlib
+unstructured[all-docs]
+pillow
+pdf2image
+lxml
+pdfminer.six
+langchain_google_genai
+# ------------------------------------------------------------
+
